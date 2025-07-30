@@ -12,3 +12,8 @@ manifest:
       import: app/west.yml
   self:
     path: config
+include:
+  - board: nice_nano_v2
+    shield: sweep_left
+  - board: nice_nano_v2
+    shield: sweep_right
