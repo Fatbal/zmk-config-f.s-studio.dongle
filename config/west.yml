@@ -10,7 +10,7 @@ manifest:
       url-base: https://github.com/nxtkb
   projects:
     - name: zmk
-      remote: zmk
+      remote: zmkfirmware
       import: app/west.yml
   self:
     path: config
