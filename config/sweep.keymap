@@ -11,12 +11,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 
-/*
-*&mt {
-*  //  flavor = "tap-preferred";
-*   // tapping_term_ms = <200>;
-*};
-*/
+
+&mt {
+  //  flavor = "tap-preferred";
+   // tapping_term_ms = <200>;
+};
+
 
 
 / { 
