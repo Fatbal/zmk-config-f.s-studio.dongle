@@ -12,86 +12,8 @@
 
 
 
-&mt {
-  //  flavor = "tap-preferred";
-   // tapping_term_ms = <200>;
-};
 
 
-
-/ { 
-
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-        
-         combo_tab {
-            timeout-ms = <50>;
-            key-positions = <13 11>;
-            bindings = <&kp TAB>;
-        };
-        
-         combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <18 17>;
-            bindings = <&kp RALT>;
-        };
-        
-          combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
-        
-         combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <4 3>;
-            bindings = <&kp LGUI>;
-        };
-              
-         combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <5 6>;
-            bindings = <&kp RGUI>;
-        };
-        
-	 combo_rctrl {
-            timeout-ms = <50>;
-            key-positions = <18 19>;
-            bindings = <&kp RCTRL>;
-        };
-	
-	 combo_lctrl {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp LCTRL>;
-        };
-	
-	combo_bspc {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&kp BSPC>;
-        };
-	
-	combo_del {
-            timeout-ms = <50>;
-            key-positions = <7 8>;
-            bindings = <&kp DEL>;
-        };
-	
-	
-	combo_layer3 {
-            timeout-ms = <250>;
-            key-positions = <0 9 20 29>;
-            bindings = <&tog 3>;
-        };
-
-        
-    };/
 
         keymap {
                 compatible = "zmk,keymap";
