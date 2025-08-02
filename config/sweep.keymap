@@ -91,7 +91,7 @@
         };
 
         
-    };
+    };/
 
         keymap {
                 compatible = "zmk,keymap";
